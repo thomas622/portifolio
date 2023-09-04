@@ -1,0 +1,36 @@
+body{
+    background-color: #13131F;
+    
+}
+
+#sobreMim{
+    font-family: "Arial";
+    text-align: center;
+    width: 55%;
+    line-height: 150%;
+    margin: 0 auto;
+}
+
+#projetos{
+    text-align: center;
+    font-size: 30px;
+}
+
+.vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 450px;
+}
+
+.item img {
+    width: 100%; /* Ajusta a largura para 100% do contêiner .item */
+    height: auto; /* Mantém a proporção da imagem */
+}
