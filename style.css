@@ -12,7 +12,11 @@ body{
 
 #projetos{
     text-align: center;
-    font-size: 30px;
+    line-height: 0%;
+}
+
+#projetos h1{
+    font-size: 50px;
 }
 
 .vitrine{
@@ -30,7 +34,7 @@ body{
 }
 
 .item img{
-    width: 100%; /* Ajusta a largura para 100% do contêiner .item */
+    width: 100%; 
     height: auto; 
 }
 
